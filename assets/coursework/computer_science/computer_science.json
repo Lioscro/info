@@ -1,0 +1,13 @@
+{
+    "name": "Computer Science",
+    "type": "list",
+    "items": [
+        "programming_methods",
+        "decidability_and_tractability",
+        "communication_networks",
+        "systems_genetics",
+        "algorithms",
+        "learning_systems"
+    ],
+    "slug": "computer_science"
+}

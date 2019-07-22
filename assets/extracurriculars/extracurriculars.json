@@ -1,0 +1,10 @@
+{
+    "name": "Extracurriculars",
+    "type": "box",
+    "items": [
+        "yearbook",
+        "health_advocate",
+        "student_government"
+    ],
+    "slug": "extracurriculars"
+}

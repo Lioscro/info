@@ -1,0 +1,16 @@
+{
+    "name": "Student Government",
+    "name_sub": "Lloyd House Historian",
+    "location": "Pasadena, CA",
+    "description": "Recorded Lloyd House (dormitory) events by taking photos. Established a new shared cloud storage system for the house to distribute these photos.",
+    "bullet": [],
+    "link": null,
+    "active": {
+        "cv": true,
+        "resume": true,
+        "web": true
+    },
+    "slug": "student_government",
+    "time_start": "Jun 2017",
+    "time_end": "May 2019"
+}

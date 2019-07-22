@@ -1,0 +1,16 @@
+{
+    "name": "Ginkgo Bioworks",
+    "name_sub": "Software Engineering Intern",
+    "location": "Boston, MA",
+    "description": "SOME DESCRIPTION",
+    "bullet": [],
+    "link": null,
+    "active": {
+        "cv": true,
+        "resume": true,
+        "web": true
+    },
+    "slug": "ginkgo_bioworks",
+    "time_start": "Jun 2019",
+    "time_end": "Sep 2019"
+}

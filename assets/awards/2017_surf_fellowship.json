@@ -1,0 +1,15 @@
+{
+    "name": "2017 SURF Fellowship",
+    "name_sub": null,
+    "location": null,
+    "description": null,
+    "bullet": [],
+    "link": null,
+    "active": {
+        "cv": true,
+        "resume": true,
+        "web": true
+    },
+    "slug": "2017_surf_fellowship",
+    "time": "Jun 2017"
+}

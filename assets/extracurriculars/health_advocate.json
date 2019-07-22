@@ -1,0 +1,16 @@
+{
+    "name": "Health Advocate",
+    "name_sub": "Emergency Medical Responder",
+    "location": "Pasadena, CA",
+    "description": "American Red Cross certified emergency medical responder and basic life support provider. Worked as the dormitory health advocate and provided first aid to students.",
+    "bullet": [],
+    "link": null,
+    "active": {
+        "cv": true,
+        "resume": true,
+        "web": true
+    },
+    "slug": "health_advocate",
+    "time_start": "Sep 2017",
+    "time_end": "Present"
+}

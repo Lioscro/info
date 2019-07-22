@@ -1,0 +1,20 @@
+{
+    "name": "Alaska",
+    "name_sub": "Full-Stack Developer",
+    "location": "Pasadena, CA",
+    "description": null,
+    "bullet": [
+        "Full-stack developer - Wrote entire back-end server in Python, R, Bash; and front-end portal in Javascript, HTML/CSS, PHP.",
+        "Presented a poster at the 21st International C. elegans Conference.",
+        "Alpha version available at http://alaska.caltech.edu/ and source code on Github."
+    ],
+    "link": "http://alaska.caltech.edu",
+    "active": {
+        "cv": true,
+        "resume": true,
+        "web": true
+    },
+    "slug": "alaska",
+    "time_start": "Jan 2017",
+    "time_end": "Present"
+}

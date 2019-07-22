@@ -1,0 +1,20 @@
+{
+    "name": "Network Simulator",
+    "name_sub": "Networks Course Project",
+    "location": "Pasadena, CA",
+    "description": null,
+    "bullet": [
+        "Event-based simulation of traffic in a network with arbitrary topology in Python.",
+        "Implemented TCP congestion control (Reno, FAST) algorithms.",
+        "Developed a UI with PyQt5 to easily set up, run, and visualize simulations."
+    ],
+    "link": "https://github.com/Lioscro/cs143-network-simulator",
+    "active": {
+        "cv": true,
+        "resume": true,
+        "web": true
+    },
+    "slug": "network_simulator",
+    "time_start": "Oct 2018",
+    "time_end": "Dec 2018"
+}

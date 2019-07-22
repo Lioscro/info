@@ -1,0 +1,19 @@
+{
+    "name": "Caltech",
+    "name_sub": "BS in Biology and Computer Science",
+    "location": "Pasadena, CA",
+    "description": null,
+    "bullet": [
+        "Expected Graduation: Jun 2020",
+        "Cum. GPA: 4.0 / 4.0"
+    ],
+    "link": null,
+    "active": {
+        "cv": true,
+        "resume": true,
+        "web": true
+    },
+    "slug": "caltech",
+    "time_start": "Sep 2016",
+    "time_end": "Present"
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Kyung Hoi (Joseph) Min",
+    "title": "Computational Biologist. Software Engineer.",
+    "email": "kmin@caltech.edu",
+    "phone": "6262409851",
+    "introduction": "SOME INTRODUCTION",
+    "links": {
+        "github": "https://github.com/Lioscro",
+        "linkedin": "https://www.linkedin.com/in/kyung-hoi-joseph-min-b68a12144/",
+        "website": "https://lioscro.github.io/homepage/"
+    },
+    "categories": [
+        "experience",
+        "projects",
+        "education",
+        "coursework",
+        "extracurriculars",
+        "awards",
+        "skills"
+    ],
+    "updated": "July 22, 2019",
+    "slug": "kyung_hoi_joseph_min"
+}

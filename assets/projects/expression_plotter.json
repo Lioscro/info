@@ -1,0 +1,21 @@
+{
+    "name": "Expression Plotter",
+    "name_sub": "Software Developer",
+    "location": "Pasadena, CA",
+    "description": null,
+    "bullet": [
+        "Continuous and binomial data analysis and plot generator in Python.",
+        "Implemented significance testing with bootstrapping.",
+        "Automatically generates boxplots, heatmaps, scatterplots of data.",
+        "Multithreaded; C-like performance with Numpy and Numba."
+    ],
+    "link": "https://github.com/WormLabCaltech/expression-plotter",
+    "active": {
+        "cv": true,
+        "resume": true,
+        "web": true
+    },
+    "slug": "expression_plotter",
+    "time_start": "Jun 2017",
+    "time_end": "Sep 2017"
+}

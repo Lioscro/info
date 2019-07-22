@@ -1,0 +1,16 @@
+{
+    "name": "Yearbook",
+    "name_sub": "Business Manager, Designer, Photographer",
+    "location": "Pasadena, CA",
+    "description": "Established a new advertisement system, shared cloud storage system, job organization and assignment system, and payment reimbursement system. Designed pages and took/edited photos with Adobe software.",
+    "bullet": [],
+    "link": null,
+    "active": {
+        "cv": true,
+        "resume": true,
+        "web": true
+    },
+    "slug": "yearbook",
+    "time_start": "Sep 2016",
+    "time_end": "Present"
+}

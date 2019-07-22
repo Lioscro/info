@@ -1,0 +1,9 @@
+{
+    "name": "Coursework",
+    "type": "nested",
+    "items": [
+        "biology",
+        "computer_science"
+    ],
+    "slug": "coursework"
+}

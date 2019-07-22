@@ -1,0 +1,11 @@
+{
+    "name": "Skills",
+    "type": "list",
+    "items": [
+        "python",
+        "docker",
+        "javascript",
+        "react_redux"
+    ],
+    "slug": "skills"
+}

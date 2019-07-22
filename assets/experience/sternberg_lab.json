@@ -1,0 +1,16 @@
+{
+    "name": "Sternberg Lab",
+    "name_sub": "Undergraduate Researcher",
+    "location": "Pasadena, CA",
+    "description": "Worked with David Angeles PhD. and Prof Paul W. Sternberg on bioinformatics and molecular biology projects involving the model organism C. elegans, most notably Alaska (above).",
+    "bullet": [],
+    "link": null,
+    "active": {
+        "cv": true,
+        "resume": true,
+        "web": true
+    },
+    "slug": "sternberg_lab",
+    "time_start": "Jan 2017",
+    "time_end": "Jun 2019"
+}
