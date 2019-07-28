@@ -1,0 +1,10 @@
+{
+    "name": "Programming",
+    "type": "list",
+    "items": [
+        "python",
+        "javascript",
+        "html_css"
+    ],
+    "slug": "programming"
+}

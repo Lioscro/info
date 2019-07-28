@@ -1,5 +1,5 @@
 {
-    "name": "SURF Fellowship",
+    "name": "Numpy, Pandas",
     "name_sub": null,
     "location": null,
     "description": null,
@@ -10,6 +10,5 @@
         "resume": true,
         "web": true
     },
-    "slug": "surf_fellowship",
-    "time": "Jun 2017"
+    "slug": "numpy,_pandas"
 }

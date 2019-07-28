@@ -1,0 +1,14 @@
+{
+    "name": "Bootstrapping (significance testing)",
+    "name_sub": null,
+    "location": null,
+    "description": null,
+    "bullet": [],
+    "link": null,
+    "active": {
+        "cv": true,
+        "resume": true,
+        "web": true
+    },
+    "slug": "bootstrapping_significance_testing"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "RNA-seq (QC, Kallisto, Sleuth)",
+    "name_sub": null,
+    "location": null,
+    "description": null,
+    "bullet": [],
+    "link": null,
+    "active": {
+        "cv": true,
+        "resume": true,
+        "web": true
+    },
+    "slug": "rna-seq_qc,_kallisto,_sleuth"
+}

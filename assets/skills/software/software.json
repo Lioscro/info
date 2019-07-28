@@ -1,0 +1,14 @@
+{
+    "name": "Software",
+    "type": "list",
+    "items": [
+        "docker",
+        "django",
+        "celery",
+        "react_redux",
+        "airflow",
+        "numpy,_pandas",
+        "matplotlib,_seaborn"
+    ],
+    "slug": "software"
+}

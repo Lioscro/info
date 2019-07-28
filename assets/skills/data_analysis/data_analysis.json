@@ -1,0 +1,9 @@
+{
+    "name": "Data Analysis",
+    "type": "list",
+    "items": [
+        "rna-seq_qc,_kallisto,_sleuth",
+        "bootstrapping_significance_testing"
+    ],
+    "slug": "data_analysis"
+}

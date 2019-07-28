@@ -1,5 +1,5 @@
 {
-    "name": "Samuel P. and Frances Krown SURF Fellowship",
+    "name": "Cloning",
     "name_sub": null,
     "location": null,
     "description": null,
@@ -10,6 +10,5 @@
         "resume": true,
         "web": true
     },
-    "slug": "samuel_p_and_frances_krown_surf_fellowship",
-    "time": "Jun 2018"
+    "slug": "cloning"
 }

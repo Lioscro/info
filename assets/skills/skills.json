@@ -1,11 +1,11 @@
 {
     "name": "Skills",
-    "type": "list",
+    "type": "nested",
     "items": [
-        "python",
-        "docker",
-        "javascript",
-        "react_redux"
+        "programming",
+        "software",
+        "data_analysis",
+        "molecular_biology"
     ],
     "slug": "skills"
 }

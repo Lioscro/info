@@ -1,0 +1,11 @@
+{
+    "name": "Molecular Biology",
+    "type": "list",
+    "items": [
+        "pcr",
+        "cloning",
+        "purification",
+        "gel_electrophoresis"
+    ],
+    "slug": "molecular_biology"
+}
