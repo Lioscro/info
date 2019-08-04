@@ -11,9 +11,9 @@
     ],
     "link": "https://github.com/WormLabCaltech/expression-plotter",
     "active": {
-        "cv": true,
-        "resume": true,
-        "web": true
+        "cv": false,
+        "resume": false,
+        "web": false
     },
     "slug": "expression_plotter",
     "time_start": "Jun 2017",

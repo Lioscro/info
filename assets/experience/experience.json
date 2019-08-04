@@ -2,8 +2,8 @@
     "name": "Experience",
     "type": "timeline",
     "items": [
-        "pachter_lab",
         "ginkgo_bioworks",
+        "pachter_lab",
         "sternberg_lab"
     ],
     "slug": "experience"

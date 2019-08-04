@@ -22,6 +22,7 @@ class Summary(JsonMixin, SlugMixin):
         phone,
         introduction,
         links=None,
+        files=None,
         categories=None
     ):
         self.name = name
@@ -30,6 +31,7 @@ class Summary(JsonMixin, SlugMixin):
         self.phone = phone
         self.introduction = introduction
         self.links = links or {}
+        self.files = files or {}
         self.categories = categories or []
         self.updated = dt.datetime.now().strftime(Summary.DATETIME_FORMAT)
 

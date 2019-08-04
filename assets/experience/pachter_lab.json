@@ -6,9 +6,9 @@
     "bullet": [],
     "link": null,
     "active": {
-        "cv": true,
-        "resume": true,
-        "web": true
+        "cv": false,
+        "resume": false,
+        "web": false
     },
     "slug": "pachter_lab",
     "time_start": "Sep 2019",
