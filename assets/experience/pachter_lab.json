@@ -2,13 +2,13 @@
     "name": "Pachter Lab",
     "name_sub": "Undergraduate Researcher",
     "location": "Pasadena, CA",
-    "description": "SOME DESCRIPTION",
+    "description": "Working with Sina Booeshaghi and Prof Lior Pachter on a single-cell RNA-seq project with Kallisto.",
     "bullet": [],
     "link": null,
     "active": {
-        "cv": false,
-        "resume": false,
-        "web": false
+        "cv": true,
+        "resume": true,
+        "web": true
     },
     "slug": "pachter_lab",
     "time_start": "Sep 2019",

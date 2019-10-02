@@ -5,7 +5,7 @@
         "docker",
         "django",
         "celery",
-        "react_redux",
+        "react",
         "airflow",
         "numpy,_pandas",
         "matplotlib,_seaborn"

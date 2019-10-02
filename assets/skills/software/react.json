@@ -1,0 +1,14 @@
+{
+    "name": "React",
+    "name_sub": null,
+    "location": null,
+    "description": null,
+    "bullet": [],
+    "link": null,
+    "active": {
+        "cv": true,
+        "resume": true,
+        "web": true
+    },
+    "slug": "react"
+}
