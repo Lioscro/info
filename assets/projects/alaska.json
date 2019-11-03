@@ -8,7 +8,7 @@
         "Presented a poster at the 21st International C. elegans Conference.",
         "Alpha version available at http://alaska.caltech.edu/ and source code on Github."
     ],
-    "link": "http://alaska.caltech.edu",
+    "link": "https://github.com/Lioscro/alaska-parse",
     "active": {
         "cv": true,
         "resume": true,

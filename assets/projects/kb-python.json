@@ -1,0 +1,20 @@
+{
+    "name": "kb-python",
+    "name_sub": "Software Developer",
+    "location": "Pasadena, CA",
+    "description": null,
+    "bullet": [
+        "A friendly Python wrapper around the kallisto | bustools pipeline for scRNA-seq analysis",
+        "Pre-processes scRNA-seq data into gene count matrices and RNA velocity matrices",
+        "Provides pre-built reference indices for pseudoalignment"
+    ],
+    "link": "https://github.com/pachterlab/kb_python",
+    "active": {
+        "cv": true,
+        "resume": true,
+        "web": true
+    },
+    "slug": "kb-python",
+    "time_start": "Oct 2019",
+    "time_end": "Present"
+}

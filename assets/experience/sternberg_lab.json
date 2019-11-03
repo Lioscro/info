@@ -3,7 +3,10 @@
     "name_sub": "Undergraduate Researcher",
     "location": "Pasadena, CA",
     "description": "Worked with David Angeles PhD. and Prof Paul W. Sternberg on bioinformatics and molecular biology projects involving the model organism C. elegans, most notably Alaska (above).",
-    "bullet": [],
+    "bullet": [
+        "Worked with David Angeles PhD. and Prof Paul W. Sternberg projects involving the model organism C. elegans.",
+        "Developed an automatic, complete RNA-seq pipeline for nematodes (Alaska)"
+    ],
     "link": null,
     "active": {
         "cv": true,

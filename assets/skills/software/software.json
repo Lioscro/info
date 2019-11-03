@@ -4,9 +4,12 @@
     "items": [
         "docker",
         "django",
-        "celery",
-        "react",
-        "airflow",
+        "celery,_rabbitmq",
+        "reactjs",
+        "ci_cd",
+        "apache_airflow",
+        "aws_s3,_batch,_dynamodb",
+        "elasticsearch,_grafana",
         "numpy,_pandas",
         "matplotlib,_seaborn"
     ],

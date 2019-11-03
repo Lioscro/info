@@ -10,9 +10,9 @@
     ],
     "link": "https://github.com/Lioscro/cs143-network-simulator",
     "active": {
-        "cv": true,
-        "resume": true,
-        "web": true
+        "cv": false,
+        "resume": false,
+        "web": false
     },
     "slug": "network_simulator",
     "time_start": "Oct 2018",

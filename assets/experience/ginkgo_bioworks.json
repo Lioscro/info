@@ -3,7 +3,9 @@
     "name_sub": "Software Engineering Intern",
     "location": "Boston, MA",
     "description": "Worked on improving Ginkgo's in-house next-generation sequncing analysis pipeline. Implemented contamination screening and dropout detection, along with metadata reporting. Migrated on-site pipeline to the cloud (AWS).",
-    "bullet": [],
+    "bullet": [
+        ""
+    ],
     "link": null,
     "active": {
         "cv": true,

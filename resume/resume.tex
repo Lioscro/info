@@ -114,7 +114,6 @@ Regulation of Gene Expression \\
 Cell Biology \\
 Genetics \\
 Bioinformatics {\footnotesize \textit{(Planned)}}\\
-Biomolecular Computation {\footnotesize \textit{(Planned)}}\\
 \sectionsep
 \location{Computer Science}
 Programming Methods \\
@@ -132,9 +131,7 @@ Learning systems
 \textbullet{\textbf{Python}}\\
 \textbullet{\textbf{Javascript}}\\
 \textbullet{HTML/CSS}\\
-\textbullet{C, C++}\\
-\textbullet{Matlab}\\
-\textbullet{R}
+\textbullet{C, C++}
 \sectionsep
 
 \subsection{Software}
@@ -151,7 +148,7 @@ Learning systems
 
 \subsection{Data Analysis}
 \textbullet{RNA-seq} {\footnotesize \textit{(QC, Kallisto, Sleuth)}}\\
-\textbullet{Bootstrapping} {\footnotesize \textit{(significance testing)}}
+\textbullet{scRNA-seq} {\footnotesize \textit{(Kallisto, Bustools)}}
 \sectionsep
 
 \subsection{Molecular Biology}
@@ -186,15 +183,24 @@ Learning systems
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Projects}
-\runsubsection{Common Cell Atlas}
+\runsubsection{kb-python}
+\descript{| Software Developer, Caltech }
+\location{Oct 2019 – Present | Pasadena, CA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item A Python wrapper around kallisto | bustools pipeline for scRNA-seq analysis.
+\item Pre-processes scRNA-seq data into gene count and RNA velocity matrices.
+\item Provides pre-built reference indices for pseudoalignment.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Commons Cell Atlas}
 \descript{| Software Developer, Caltech }
 \location{Sept 2019 – Present | Pasadena, CA}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 \item Repository for all the world's single-cell RNA-seq data.
 \item Arbitrary aggregation and comparison of data across multiple datasets.
-\item Uses a variational autoencoder to simplify multi-dimensional data.
-\item Web application written in React.js.
+\item Web application written in React.js and Django.
 \end{tightemize}
 \sectionsep
 
@@ -214,8 +220,6 @@ Learning systems
 % \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 \item Developed a framework for automated, complete RNA-seq analysis.
-% \item Ultra-portability and modularity with Docker.
-\item Parse Server backend. Frontend portal in Javascript, HTML/CSS.
 \item Presented a poster at the 21st International \textit{C. elegans} Conference.
 \item Available at \textcolor{blue}{ \href{http://alaska.caltech.edu/}{http://alaska.caltech.edu/}} and source code on Github.
 \end{tightemize}
@@ -228,7 +232,7 @@ Learning systems
 \runsubsection{Pachter Lab}
 \descript{| Undergraduate Researcher}
 \location{Oct 2019 – Present | Pasadena, CA}
-Working with \textbf{\href{https://github.com/sbooeshaghi}{Sina Booeshaghi}} and \textbf{\href{https://liorpachter.wordpress.com/}{Prof Lior Pachter}}, along with Caltech Data, on the Common Cell Atlas (above).
+Working with \textbf{\href{https://sinabooeshaghi.com/}{Sina Booeshaghi}} and \textbf{\href{https://pachterlab.github.io/biography.html}{Prof Lior Pachter}}, along with Caltech Data, on the Common Cell Atlas (above).
 \sectionsep
 
 \runsubsection{Sternberg Lab}
@@ -243,15 +247,9 @@ Worked with \textbf{\href{https://dangeles.github.io/}{David Angeles PhD.}} and 
 
 \section{Extracurriculars}
 \runsubsection{Yearbook}
-\descript{| Business Manager, Designer, Photographer}
+\descript{| Business Manager, Designer, Photographer, Editor-in-Chief}
 \location{Sept 2016 – Present | Pasadena, CA}
-Worked on the yearbook, \textit{The Big T}, as business manager, designer and photographer. Established a new advertisement system, shared cloud storage system, job organization and assignment system, and payment reimbursement system. Designed pages and took/edited photos with Adobe software.
-\sectionsep
-
-\runsubsection{Health Advocate}
-\descript{| Emergency Medical Responder}
-\location{Sept 2017 – Present | Pasadena, CA}
-American Red Cross certified emergency medical responder and basic life support provider. Worked as the dormitory health advocate and provided first aid to students.
+Established a new advertisement system, shared cloud storage system, job organization and assignment system, and payment reimbursement system. Designed pages and took/edited photos with Adobe software.
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -260,6 +258,7 @@ American Red Cross certified emergency medical responder and basic life support 
 
 \section{Awards}
 \begin{tabular}{rl}
+2018     & Perpall Speaking Competition Semi-finalist \\
 2018     & Samuel P. and Frances Krown SURF Fellowship  \\
 2017     & SURF Fellowship \\
 \end{tabular}

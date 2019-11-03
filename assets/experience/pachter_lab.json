@@ -2,8 +2,12 @@
     "name": "Pachter Lab",
     "name_sub": "Undergraduate Researcher",
     "location": "Pasadena, CA",
-    "description": "Working with Sina Booeshaghi and Prof Lior Pachter on a single-cell RNA-seq project with Kallisto.",
-    "bullet": [],
+    "description": "Working with Sina Booeshaghi and Prof Lior Pachter on a single-cell RNA-seq project with Kallisto. Developed a friendly wrapper around a popular scRNA-seq analysis pipeline (kb-python). Developing a repository for scRNA-seq data that will allow aggregation across multiple datasets. ",
+    "bullet": [
+        "Working with Sina Booeshagi and Prof. Lior Pachter on single-cell RNA-seq projects",
+        "Developed a friendly wrapper around a popular scRNA-seq analysis pipeline (kb-python)",
+        "Developing a repository for scRNA-seq data that will allow aggregation across multiple datasets"
+    ],
     "link": null,
     "active": {
         "cv": true,

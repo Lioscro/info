@@ -3,6 +3,8 @@
     "type": "card",
     "items": [
         "alaska",
+        "commons_cell_atlas",
+        "kb-python",
         "network_simulator",
         "expression_plotter"
     ],

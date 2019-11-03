@@ -1,0 +1,14 @@
+{
+    "name": "AWS S3, Batch, DynamoDB",
+    "name_sub": null,
+    "location": null,
+    "description": null,
+    "bullet": [],
+    "link": null,
+    "active": {
+        "cv": true,
+        "resume": true,
+        "web": true
+    },
+    "slug": "aws_s3,_batch,_dynamodb"
+}

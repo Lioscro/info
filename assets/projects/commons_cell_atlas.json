@@ -1,0 +1,20 @@
+{
+    "name": "Commons Cell Atlas",
+    "name_sub": "Full-Stack Developer",
+    "location": "Pasadena, CA",
+    "description": null,
+    "bullet": [
+        "Repository for all the world's single-cell RNA-seq data.",
+        "Arbitrary aggregation and comparison of data across multiple datasets by using a variational autoencoder to siplify multi-dimensional data.",
+        "Web application written in React.js and Django."
+    ],
+    "link": "",
+    "active": {
+        "cv": true,
+        "resume": true,
+        "web": true
+    },
+    "slug": "commons_cell_atlas",
+    "time_start": "Sep 2019",
+    "time_end": "Present"
+}
