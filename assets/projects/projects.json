@@ -2,9 +2,9 @@
     "name": "Projects",
     "type": "card",
     "items": [
-        "alaska",
         "commons_cell_atlas",
         "kb-python",
+        "alaska",
         "network_simulator",
         "expression_plotter"
     ],
