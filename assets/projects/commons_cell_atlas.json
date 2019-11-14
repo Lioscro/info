@@ -5,7 +5,7 @@
     "description": null,
     "bullet": [
         "Repository for all the world's single-cell RNA-seq data.",
-        "Arbitrary aggregation and comparison of data across multiple datasets by using a variational autoencoder to siplify multi-dimensional data.",
+        "Arbitrary aggregation and comparison of data across multiple datasets by using a variational autoencoder to simplify multi-dimensional data.",
         "Web application written in React.js and Django."
     ],
     "link": "",

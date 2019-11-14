@@ -4,7 +4,7 @@
     "location": "Pasadena, CA",
     "description": null,
     "bullet": [
-        "A friendly Python wrapper around the kallisto | bustools pipeline for scRNA-seq analysis",
+        "A friendly Python wrapper around the kallisto | bustools pipeline for scRNA-seq pre-processing",
         "Pre-processes scRNA-seq data into gene count matrices and RNA velocity matrices",
         "Provides pre-built reference indices for pseudoalignment"
     ],
