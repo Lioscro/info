@@ -67,7 +67,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Kyung Hoi (Joseph)}{Min}{
-\faPhone\phantom{ }626.240.9851 | \faEnvelope\phantom{ } \href{mailto:kmin@caltech.edu}{kmin@caltech.edu} | \faGithub  \href{https://github.com/lioscro}{\phantom{ }lioscro} | \faGlobe  \href{https://lioscro.github.io/homepage/}{\phantom{ }lioscro.github.io/homepage/} | \faLinkedin  \href{https://www.linkedin.com/in/lioscro/}{\phantom{ }lioscro} | \faTwitter  \href{https://twitter.com/lioscro}{\phantom{ }@lioscro}
+\faPhone\phantom{ }626.240.9851 | \faEnvelope\phantom{ } \href{mailto:kmin@caltech.edu}{kmin@mit.edu} | \faGithub  \href{https://github.com/lioscro}{\phantom{ }lioscro} | \faLinkedin  \href{https://www.linkedin.com/in/lioscro/}{\phantom{ }lioscro} | \faTwitter  \href{https://twitter.com/lioscro}{\phantom{ }@lioscro}
 
 }
 
@@ -77,18 +77,22 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.33\textwidth}
+\begin{minipage}[t]{0.28\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Education}
+\subsection{MIT}
+\descript{PhD. in EECS}
+\location{Present | Cambridge, MA}
+\sectionsep
+
 \subsection{Caltech}
 \descript{BS in Biology and \\ Computer Science}
-\location{Present | Pasadena, CA}
-Expected Graduation: Jun 2020\\
-\location{Cum. GPA: 4.0 / 4.3}
+\location{Jun 2020 | Pasadena, CA}
+% \location{Cum. GPA: 4.0 / 4.3}
 %Major GPA: 3.9 / 4.0}
 \sectionsep
 
@@ -108,21 +112,32 @@ Expected Graduation: Jun 2020\\
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Coursework}
-\subsection{Undergraduate}
-\location{Biology}
-Regulation of Gene Expression \\
-Cell Biology \\
-Genetics \\
-Bioinformatics {\footnotesize \textit{(Planned)}}\\
-\sectionsep
-\location{Computer Science}
-Programming Methods \\
-Decidability and Tractability \\
-Communication Networks \\
-Algorithms \\
-Learning systems {\footnotesize \textit{(machine learning)}}\\
-\sectionsep
+% \section{Coursework}
+% \subsection{Undergraduate}
+% \location{Biology}
+% Regulation of Gene Expression \\
+% Cell Biology \\
+% Genetics \\
+% Bioinformatics {\footnotesize \textit{(Planned)}}\\
+% \sectionsep
+% \location{Computer Science}
+% Programming Methods \\
+% Decidability and Tractability \\
+% Communication Networks \\
+% Algorithms \\
+% Learning systems {\footnotesize \textit{(machine learning)}}\\
+% \sectionsep
+
+\section{Publications}
+\renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
+\begin{thebibliography}{9}
+% \bibitem{kite}
+% Feature demultiplexing for single-cell genomics assays. Co-first author, in preparation.
+\bibitem{colosseum}
+Low-cost, scalable, and automated fluid sampling for fluidics applications. Author, under review.
+\bibitem{kb}
+Modular and efficient pre-processing of single-cell RNA-seq. Author, published.
+\end{thebibliography}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
@@ -177,27 +192,35 @@ Learning systems {\footnotesize \textit{(machine learning)}}\\
 
 \end{minipage}
 \hfill
-\begin{minipage}[t]{0.66\textwidth}
+\begin{minipage}[t]{0.69\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PROJECTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Projects}
-\runsubsection{Commons Cell Atlas}
-\descript{| Software Developer, Caltech }
-\location{Sept 2019 – Present | Pasadena, CA}
+\runsubsection{Mass Spectrometry Pipeline}
+\descript{| Software Soln. Engineering Intern, Ginkgo Bioworks }
+\location{Jun 2020 – Aug 2020 | Boston, MA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Repository for all the world's single-cell RNA-seq data.
-\item Arbitrary aggregation and comparison of data across multiple datasets.
-\item Web application written in React.js and Django.
+\item {Migrated mass spectrometry pipeline, which depended on an on-prem Windows machine, to Linux on AWS and Airflow.}
+\item {Retired an internal fork of ProteoWizard by contributing back to the project.}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Colosseum}
+\descript{| Undergraduate Researcher, Pachter Lab }
+\location{Sept 2019 - Jun 2020 | Pasadena, CA}
+\begin{tightemize}
+\item {A low-cost, modular, open-source automated fluid sampling device for scalable microfluidic applications.}
+\item {Developed its user interface using PyQt5 and installable from Pypi; later migrated to a fully-featured web application written with React.js.}
 \end{tightemize}
 \sectionsep
 
 \runsubsection{kb-python}
-\descript{| Software Developer, Caltech }
-\location{Oct 2019 – Present | Pasadena, CA}
+\descript{| Undergraduate Researcher, Pachter Lab }
+\location{Oct 2019 – Jun 2020 | Pasadena, CA}
 \begin{tightemize}
 \item A Python wrapper around popular pipeline for scRNA-seq pre-processing.
 \item Pre-processes scRNA-seq data into gene count and RNA velocity matrices.
@@ -215,32 +238,50 @@ Learning systems {\footnotesize \textit{(machine learning)}}\\
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Alaska}
-\descript{| Full-Stack Developer, Caltech }
-\location{Jan 2017 - Aug 2019 | Pasadena, CA}
-% \vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}
-\item Developed a framework for automated, complete RNA-seq analysis.
-\item Presented a poster at the 21st International \textit{C. elegans} Conference.
-\item Available at \textcolor{blue}{ \href{http://alaska.caltech.edu/}{http://alaska.caltech.edu/}} and source code on Github.
-\end{tightemize}
-\sectionsep
+% \runsubsection{Alaska}
+% \descript{| Full-Stack Developer, Caltech }
+% \location{Jan 2017 - Aug 2019 | Pasadena, CA}
+% % \vspace{\topsep} % Hacky fix for awkward extra vertical space
+% \begin{tightemize}
+% \item Developed a framework for automated, complete RNA-seq analysis.
+% \item Presented a poster at the 21st International \textit{C. elegans} Conference.
+% \item Available at \textcolor{blue}{ \href{http://alaska.caltech.edu/}{http://alaska.caltech.edu/}} and source code on Github.
+% \end{tightemize}
+% \sectionsep
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     RESEARCH
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Research}
-\runsubsection{Pachter Lab}
-\descript{| Undergraduate Researcher}
-\location{Oct 2019 – Present | Pasadena, CA}
-Working with \textbf{\href{https://sinabooeshaghi.com/}{Sina Booeshaghi}} and \textbf{\href{https://pachterlab.github.io/biography.html}{Prof Lior Pachter}} on developing software tools to store, distribute, and analyze scRNA-seq data. Most notably kb-python and Commons Cell Atlas (both above).
+\section{Experience}
+\runsubsection{Research Assistant}
+\descript{| Weissman Lab}
+\location{Dec 2020 – Present | Cambridge, MA}
+Studying cancer evolution via synthetic lineage reconstruction using a CRISPR-enabled lineage tracer. Additionally, developing a tool to preprocess metabolic labeling data to quantify RNA splicing kinetics.
 \sectionsep
 
-\runsubsection{Sternberg Lab}
-\descript{| Undergraduate Researcher}
-\location{Jan 2017 – Jun 2019 | Pasadena, CA}
-Worked with \textbf{\href{https://dangeles.github.io/}{David Angeles PhD.}} and \textbf{\href{http://wormlab.caltech.edu/LabMembers/Paul}{Prof Paul W. Sternberg}} on bioinformatics and molecular biology projects involving the model organism \textit{C. elegans}, most notably Alaska (above).
+\runsubsection{Software Soln. Engineering Intern}
+\descript{| Ginkgo Bioworks}
+\location{Jun 2020 – Aug 2020 | Boston, MA}
+Migrated company's mass spectrometry data pipeline to AWS and airflow. Took responsibility of the full development cycle of the project---from conceptualization, making architectural and design decisions to implementation, validation, and release.
 \sectionsep
+
+\runsubsection{Undergraduate Researcher}
+\descript{| Pachter Lab}
+\location{Oct 2019 – Jun 2020 | Pasadena, CA}
+Worked with \textbf{\href{https://sinabooeshaghi.com/}{Sina Booeshaghi}} and \textbf{\href{https://pachterlab.github.io/biography.html}{Prof Lior Pachter}} on developing software tools to analyze scRNA-seq data. Most notably \href{https://github.com/pachterlab/kb_python}{kb-python} (above) and \href{https://github.com/pachterlab/colosseum}{Colosseum} (not listed).
+\sectionsep
+
+\runsubsection{Software Engineering Intern}
+\descript{| Ginkgo Bioworks}
+\location{Jun 2019 – Sept 2019 | Boston, MA}
+Improved company's in-house data analysis pipeline and various backend services. Worked collaboratively with other software engineers in an Agile environment to deliver stable, scalable and tested products.
+\sectionsep
+
+% \runsubsection{Sternberg Lab}
+% \descript{| Undergraduate Researcher}
+% \location{Jan 2017 – Jun 2019 | Pasadena, CA}
+% Worked with \textbf{\href{https://dangeles.github.io/}{David Angeles PhD.}} and \textbf{\href{http://wormlab.caltech.edu/LabMembers/Paul}{Prof Paul W. Sternberg}} on bioinformatics and molecular biology projects involving the model organism \textit{C. elegans}, most notably Alaska (above).
+% \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXTRACURRICULARS
@@ -257,26 +298,28 @@ Worked with \textbf{\href{https://dangeles.github.io/}{David Angeles PhD.}} and 
 %     AWARDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Awards}
-\begin{tabular}{rl}
-2018     & Perpall Speaking Competition Semi-finalist \\
-2018     & Samuel P. and Frances Krown SURF Fellowship  \\
-2017     & SURF Fellowship \\
-\end{tabular}
-\sectionsep
+% \section{Awards}
+% \begin{tabular}{rl}
+% 2018     & Perpall Speaking Competition Semi-finalist \\
+% 2018     & Samuel P. and Frances Krown SURF Fellowship  \\
+% 2017     & SURF Fellowship \\
+% \end{tabular}
+% \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PUBLICATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Publications}
-\renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
-\begin{thebibliography}{9}
-\bibitem{kite} 
-Feature demultiplexing for single-cell genomics assays. Co-first author, in preparation.
-\bibitem{kb} 
-Modular and efficient pre-processing of single-cell RNA-seq. Author, in review.
-\end{thebibliography}
+% \section{Publications}
+% \renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
+% \begin{thebibliography}{9}
+% % \bibitem{kite}
+% % Feature demultiplexing for single-cell genomics assays. Co-first author, in preparation.
+% \bibitem{colosseum}
+% Low-cost, scalable, and automated fluid sampling for fluidics applications. Author, under review.
+% \bibitem{kb}
+% Modular and efficient pre-processing of single-cell RNA-seq. Author, published.
+% \end{thebibliography}
 
 \end{minipage}
 \end{document}  \documentclass[]{article}

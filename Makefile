@@ -1,6 +1,6 @@
 .PHONY : install assets resume
 DATE=$(shell date +%Y_%m_%d)
-LATEX=lualatex
+LATEX=xelatex
 LATEX_FLAGS=-interaction=nonstopmode --output-directory=render --jobname=$(DATE)
 
 # Define path to files.
@@ -12,7 +12,7 @@ default:
 	make cv
 
 install:
-	# IMPORTANT: make sure you have LuaLatex installed!
+	# IMPORTANT: only for MacOS and lualatex
 	tlmgr option repository ctan
 	tlmgr update --self
 	tlmgr install textpos
