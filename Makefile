@@ -33,6 +33,6 @@ resume: resume/resume.tex resume/resume.cls resume/publications.bib
 	cd resume && $(LATEX) $(LATEX_FLAGS) resume.tex && cd ..
 	cp resume/render/$(DATE).pdf resume/render/latest/latest.pdf
 
-cv: cv/cv.tex cv/cv.cls
+cv: cv/cv.tex cv/cv.cls cv/categories/*.tex
 	cd cv && $(LATEX) $(LATEX_FLAGS) cv.tex && cd ..
 	cp cv/render/$(DATE).pdf cv/render/latest/latest.pdf
