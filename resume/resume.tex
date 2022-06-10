@@ -67,7 +67,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Kyung Hoi (Joseph)}{Min}{
-\faPhone\phantom{ }626.240.9851 | \faEnvelope\phantom{ } \href{mailto:kmin@caltech.edu}{kmin@mit.edu} | \faGithub  \href{https://github.com/lioscro}{\phantom{ }lioscro} | \faLinkedin  \href{https://www.linkedin.com/in/lioscro/}{\phantom{ }lioscro} | \faTwitter  \href{https://twitter.com/lioscro}{\phantom{ }@lioscro}
+\faPhone\phantom{ }626.240.9851 | \faEnvelope\phantom{ } \href{mailto:kmin@mit.edu}{kmin@mit.edu} | \faGithub  \href{https://github.com/lioscro}{\phantom{ }lioscro} | \faLinkedin  \href{https://www.linkedin.com/in/lioscro/}{\phantom{ }lioscro} | \faTwitter  \href{https://twitter.com/lioscro}{\phantom{ }@lioscro}
 
 }
 
@@ -85,8 +85,8 @@
 
 \section{Education}
 \subsection{MIT}
-\descript{PhD. in EECS}
-\location{Present | Cambridge, MA}
+\descript{MS in EECS}
+\location{Jun 2022 | Cambridge, MA}
 \sectionsep
 
 \subsection{Caltech}
@@ -131,12 +131,14 @@
 \section{Publications}
 \renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
 \begin{thebibliography}{9}
-% \bibitem{kite}
-% Feature demultiplexing for single-cell genomics assays. Co-first author, in preparation.
+\bibitem{kp}
+Lineage tracing reveals the phylodynamics, plasticity, and paths of tumor evolution. Cell, 2022.
+\bibitem{dynamo}
+Mapping transcriptomic vector fields of single cells. Cell, 2022.
 \bibitem{colosseum}
-Low-cost, scalable, and automated fluid sampling for fluidics applications. Author, under review.
+Low-cost, scalable, and automated fluid sampling for fluidics applications. HardwareX, 2021.
 \bibitem{kb}
-Modular and efficient pre-processing of single-cell RNA-seq. Author, published.
+Modular and efficient pre-processing of single-cell RNA-seq. Nature Biotechnology, 2021.
 \end{thebibliography}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -163,15 +165,15 @@ Modular and efficient pre-processing of single-cell RNA-seq. Author, published.
 \sectionsep
 
 \subsection{Data Analysis}
-\textbullet{RNA-seq} {\footnotesize \textit{(QC, Kallisto, Sleuth)}}\\
-\textbullet{scRNA-seq} {\footnotesize \textit{(Kallisto, Bustools)}}
+\textbullet{scRNA-seq}\\
+\textbullet{Spatial transcriptomics}
 \sectionsep
 
-\subsection{Molecular Biology}
-\textbullet{PCR}\\
-\textbullet{Cloning}\\
-\textbullet{Purification}\\
-\sectionsep
+% \subsection{Molecular Biology}
+% \textbullet{PCR}\\
+% \textbullet{Cloning}\\
+% \textbullet{Purification}\\
+% \sectionsep
 
 
 
@@ -199,42 +201,59 @@ Modular and efficient pre-processing of single-cell RNA-seq. Author, published.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Projects}
-\runsubsection{Mass Spectrometry Pipeline}
-\descript{| Software Soln. Engineering Intern, Ginkgo Bioworks }
-\location{Jun 2020 – Aug 2020 | Boston, MA}
+
+\runsubsection{\href{https://github.com/aristoteleo/spateo-release}{Spateo \faGithub}}
+\descript{| Research Assistant, MIT}
+\location{Dec 2021 - Jun 2022 | Cambridge, MA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item {Python package for analysis of high-resolution spatial transcriptomics.}
+\item {Developed novel RNA-based cell segmentation approaches.}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://github.com/aristoteleo/dynast-release}{Dynast \faGithub}}
+\descript{| Research Assistant, MIT}
+\location{Dec 2020 - Jun 2022 | Cambridge, MA}
+\begin{tightemize}
+\item {An inclusive and efficient preprocessing pipeline for quantifying metabolic labeling-enabled scRNA-seq.}
+\item {Simultaneous quantification of metabolically labeled and spliced transcripts.}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Mass Spectrometry Pipeline}
+\descript{| Software Soln. Engineer Intern, Ginkgo Bioworks}
+\location{Jun 2020 – Aug 2020 | Boston, MA}
 \begin{tightemize}
 \item {Migrated mass spectrometry pipeline, which depended on an on-prem Windows machine, to Linux on AWS and Airflow.}
 \item {Retired an internal fork of ProteoWizard by contributing back to the project.}
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Colosseum}
-\descript{| Undergraduate Researcher, Pachter Lab }
-\location{Sept 2019 - Jun 2020 | Pasadena, CA}
-\begin{tightemize}
-\item {A low-cost, modular, open-source automated fluid sampling device for scalable microfluidic applications.}
-\item {Developed its user interface using PyQt5 and installable from Pypi; later migrated to a fully-featured web application written with React.js.}
-\end{tightemize}
-\sectionsep
+% \runsubsection{Colosseum}
+% \descript{| Undergraduate Researcher, Pachter Lab }
+% \location{Sept 2019 - Jun 2020 | Pasadena, CA}
+% \begin{tightemize}
+% \item {A low-cost, modular, open-source automated fluid sampling device for scalable microfluidic applications.}
+% \item {Developed its user interface using PyQt5 and installable from Pypi; later migrated to a fully-featured web application written with React.js.}
+% \end{tightemize}
+% \sectionsep
 
-\runsubsection{kb-python}
+\runsubsection{\href{https://github.com/pachterlab/kb_python}{kb-python \faGithub}}
 \descript{| Undergraduate Researcher, Pachter Lab }
 \location{Oct 2019 – Jun 2020 | Pasadena, CA}
 \begin{tightemize}
 \item A Python wrapper around popular pipeline for scRNA-seq pre-processing.
 \item Pre-processes scRNA-seq data into gene count and RNA velocity matrices.
-\item Provides pre-built reference indices for pseudoalignment.
 \end{tightemize}
 \sectionsep
 
 \runsubsection{NGS Pipeline}
-\descript{| Software Engineering Intern, Ginkgo Bioworks }
+\descript{| Software Engineer Intern, Ginkgo Bioworks }
 \location{Jun 2019 - Sept 2019 | Boston, MA}
 \begin{tightemize}
 \item Migrated in-house NGS pipeline to the cloud (AWS S3, Batch, DynamoDB).
 \item Implemented pipeline metrics collection with Elasticsearch and Grafana.
-\item Implemented contamination screening via taxonomy analysis with Centrifuge.
 \end{tightemize}
 \sectionsep
 
@@ -254,12 +273,12 @@ Modular and efficient pre-processing of single-cell RNA-seq. Author, published.
 
 \section{Experience}
 \runsubsection{Research Assistant}
-\descript{| Weissman Lab}
-\location{Dec 2020 – Present | Cambridge, MA}
-Studying cancer evolution via synthetic lineage reconstruction using a CRISPR-enabled lineage tracer. Additionally, developing a tool to preprocess metabolic labeling data to quantify RNA splicing kinetics.
+\descript{| MIT}
+\location{Dec 2020 – Jun 2022 | Cambridge, MA}
+Studied cancer evolution via synthetic lineage reconstruction using a CRISPR-enabled lineage tracer at the Weissman lab. Developed a tool to preprocess metabolic labeling data to quantify RNA splicing kinetics.
 \sectionsep
 
-\runsubsection{Software Soln. Engineering Intern}
+\runsubsection{Software Soln. Engineer Intern}
 \descript{| Ginkgo Bioworks}
 \location{Jun 2020 – Aug 2020 | Boston, MA}
 Migrated company's mass spectrometry data pipeline to AWS and airflow. Took responsibility of the full development cycle of the project---from conceptualization, making architectural and design decisions to implementation, validation, and release.

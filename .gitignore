@@ -107,3 +107,4 @@ venv.bak/
 # LaTex render
 *.aux
 *.out
+.vscode
