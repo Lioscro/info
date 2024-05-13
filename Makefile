@@ -29,7 +29,7 @@ install:
 assets:
 	jupyter nbconvert --to notebook --inplace --execute $(INFO_NOTEBOOK)
 
-resume: resume/resume.tex resume/resume.cls resume/publications.bib
+resume: resume/resume.tex resume/resume.cls
 	cd resume && $(LATEX) $(LATEX_FLAGS) resume.tex && cd ..
 	cp resume/render/$(DATE).pdf resume/render/latest/latest.pdf
 

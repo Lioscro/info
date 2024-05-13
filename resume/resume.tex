@@ -66,8 +66,8 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Joseph}{Min}{
-\faPhone\phantom{ }626.240.9851 | \faEnvelope\phantom{ } \href{mailto:phoenixter96@gmail.com}{phoenixter96@gmail.com} | \faGithub  \href{https://github.com/lioscro}{\phantom{ }lioscro} | \faLinkedin  \href{https://www.linkedin.com/in/lioscro/}{\phantom{ }lioscro} | \faTwitter  \href{https://twitter.com/lioscro}{\phantom{ }@lioscro}
+\namesection{Kyung Hoi (Joseph)}{Min}{
+Pasadena, CA | \faEnvelope\phantom{ } \href{mailto:phoenixter96@gmail.com}{phoenixter96@gmail.com} | \faGithub  \href{https://github.com/lioscro}{\phantom{ }lioscro} | \faLinkedin  \href{https://www.linkedin.com/in/lioscro/}{\phantom{ }lioscro}
 
 }
 
@@ -128,19 +128,6 @@
 % Learning systems {\footnotesize \textit{(machine learning)}}\\
 % \sectionsep
 
-\section{Publications}
-\renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
-\begin{thebibliography}{9}
-\bibitem{kp}
-Lineage tracing reveals the phylodynamics, plasticity, and paths of tumor evolution. Cell, 2022.
-\bibitem{dynamo}
-Mapping transcriptomic vector fields of single cells. Cell, 2022.
-\bibitem{colosseum}
-Low-cost, scalable, and automated fluid sampling for fluidics applications. HardwareX, 2021.
-\bibitem{kb}
-Modular and efficient pre-processing of single-cell RNA-seq. Nature Biotechnology, 2021.
-\end{thebibliography}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -148,20 +135,25 @@ Modular and efficient pre-processing of single-cell RNA-seq. Nature Biotechnolog
 \subsection{Programming}
 \textbullet{\textbf{Python}}\\
 \textbullet{\textbf{Javascript}}\\
-\textbullet{C, C++}\\
-\textbullet{HTML/CSS}
+\textbullet{Ruby on Rails}\\
+\textbullet{C\# (.NET Framework)}\\
+\textbullet{C, C++}
 \sectionsep
 
 \subsection{Software}
 \textbullet{\textbf{Docker}}\\
 \textbullet{\textbf{Django}}\\
 \textbullet{\textbf{Apache Airflow}}\\
-\textbullet{\textbf{AWS S3, Batch, DynamoDB}}\\
-\textbullet{Elasticsearch, Grafana}\\
-\textbullet{React.js}\\
-\textbullet{CI/CD}\\
-\textbullet{Celery, RabbitMQ}\\
-\textbullet{Numpy, Pandas}
+\textbullet{\textbf{AWS (S3, Batch, RDS, Lambda)}}\\
+\textbullet{\textbf{React.js}}\\
+\textbullet{GraphQL}\\
+\textbullet{Kubernetes}\\
+\textbullet{Kafka}\\
+\textbullet{Snowflake}\\
+% \textbullet{Elasticsearch, Grafana}\\
+% \textbullet{CI/CD}\\
+% \textbullet{Celery, RabbitMQ}\\
+% \textbullet{Numpy, Pandas}
 \sectionsep
 
 \subsection{Data Analysis}
@@ -186,6 +178,24 @@ Modular and efficient pre-processing of single-cell RNA-seq. Nature Biotechnolog
 % AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 % \sectionsep
 
+\section{Publications}
+\renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
+\begin{thebibliography}{9}
+\bibitem{spateo}
+Spateo: multidimensional spatiotemporal modeling of single-cell spatial transcriptomics. bioRxiv, 2022
+\bibitem{dynast}
+Dynast: Inclusive and efficient quantification of metabolically labeled transcripts in single cells. MIT, 2022
+% \bibitem{kp}
+% Lineage tracing reveals the phylodynamics, plasticity, and paths of tumor evolution. Cell, 2022.
+\bibitem{dynamo}
+Mapping transcriptomic vector fields of single cells. Cell, 2022.
+% \bibitem{colosseum}
+% Low-cost, scalable, and automated fluid sampling for fluidics applications. HardwareX, 2021.
+\bibitem{kb}
+Modular and efficient pre-processing of single-cell RNA-seq. Nature Biotechnology, 2021.
+\end{thebibliography}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     COLUMN TWO
@@ -203,7 +213,7 @@ Modular and efficient pre-processing of single-cell RNA-seq. Nature Biotechnolog
 \section{Projects}
 
 \runsubsection{\href{https://github.com/aristoteleo/spateo-release}{Spateo \faGithub}}
-\descript{| Research Assistant, MIT}
+\descript{| Research Assistant, MIT \cite{spateo}}
 \location{Dec 2021 - Jun 2022 | Cambridge, MA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
@@ -213,7 +223,7 @@ Modular and efficient pre-processing of single-cell RNA-seq. Nature Biotechnolog
 \sectionsep
 
 \runsubsection{\href{https://github.com/aristoteleo/dynast-release}{Dynast \faGithub}}
-\descript{| Research Assistant, MIT}
+\descript{| Research Assistant, MIT \cite{dynast}}
 \location{Dec 2020 - Jun 2022 | Cambridge, MA}
 \begin{tightemize}
 \item {An inclusive and efficient preprocessing pipeline for quantifying metabolic labeling-enabled scRNA-seq.}
@@ -221,14 +231,14 @@ Modular and efficient pre-processing of single-cell RNA-seq. Nature Biotechnolog
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Mass Spectrometry Pipeline}
-\descript{| Software Soln. Engineer Intern, Ginkgo Bioworks}
-\location{Jun 2020 – Aug 2020 | Boston, MA}
-\begin{tightemize}
-\item {Migrated mass spectrometry pipeline to Linux on AWS and Airflow.}
-\item {Retired an internal fork of ProteoWizard by merging back to upstream.}
-\end{tightemize}
-\sectionsep
+% \runsubsection{Mass Spectrometry Pipeline}
+% \descript{| Software Soln. Engineer Intern, Ginkgo Bioworks}
+% \location{Jun 2020 – Aug 2020 | Boston, MA}
+% \begin{tightemize}
+% \item {Migrated mass spectrometry pipeline to Linux on AWS and Airflow.}
+% \item {Retired an internal fork of ProteoWizard by merging back to upstream.}
+% \end{tightemize}
+% \sectionsep
 
 % \runsubsection{Colosseum}
 % \descript{| Undergraduate Researcher, Pachter Lab }
@@ -240,7 +250,7 @@ Modular and efficient pre-processing of single-cell RNA-seq. Nature Biotechnolog
 % \sectionsep
 
 \runsubsection{\href{https://github.com/pachterlab/kb_python}{kb-python \faGithub}}
-\descript{| Undergraduate Researcher, Pachter Lab }
+\descript{| Undergraduate Researcher, Pachter Lab \cite{kb}}
 \location{Oct 2019 – Jun 2020 | Pasadena, CA}
 \begin{tightemize}
 \item A Python wrapper around popular pipeline for scRNA-seq pre-processing.
@@ -252,7 +262,7 @@ Modular and efficient pre-processing of single-cell RNA-seq. Nature Biotechnolog
 \descript{| Software Engineer Intern, Ginkgo Bioworks }
 \location{Jun 2019 - Sept 2019 | Boston, MA}
 \begin{tightemize}
-\item Migrated in-house NGS pipeline to the cloud (AWS S3, Batch, DynamoDB).
+\item Migrated in-house NGS pipeline to AWS and Apache Airflow.
 \item Implemented pipeline metrics collection with Elasticsearch and Grafana.
 \end{tightemize}
 \sectionsep
@@ -272,10 +282,16 @@ Modular and efficient pre-processing of single-cell RNA-seq. Nature Biotechnolog
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
+\runsubsection{Software Engineer}
+\descript{| Ginkgo Bioworks}
+\location{Aug 2022 – Present | Current title: Senior Software Engineer | Boston, MA}
+Worked as an individual contributor on the Solution Engineering team identifying gaps in core software, proposing and designing technical solutions, driving cross-team initiatives in an Agile environment, and unblocking high-impact projects.
+\sectionsep
+
 \runsubsection{Research Assistant}
 \descript{| MIT}
 \location{Dec 2020 – Jun 2022 | Cambridge, MA}
-Studied cancer evolution via synthetic lineage reconstruction using a CRISPR-enabled lineage tracer \cite{kp} at the Weissman lab. Developed a tool to preprocess metabolic labeling scRNA-seq data \cite{dynamo} and high-resolution spatial transcriptomics.
+Studied cancer evolution via synthetic lineage reconstruction using a CRISPR-enabled lineage tracer at the Weissman lab. Developed a tool to preprocess metabolic labeling scRNA-seq data \cite{dynast} and high-resolution spatial transcriptomics \cite{spateo}.
 \sectionsep
 
 \runsubsection{Software Soln. Engineer Intern}
@@ -287,7 +303,7 @@ Migrated company's mass spectrometry data pipeline to AWS and airflow. Took resp
 \runsubsection{Undergraduate Researcher}
 \descript{| Pachter Lab}
 \location{Oct 2019 – Jun 2020 | Pasadena, CA}
-Worked with \textbf{\href{https://sinabooeshaghi.com/}{Sina Booeshaghi}} and \textbf{\href{https://pachterlab.github.io/biography.html}{Prof Lior Pachter}} on developing software tools to analyze scRNA-seq data. Most notably \href{https://github.com/pachterlab/kb_python}{kb-python} \cite{kb} (above) and \href{https://github.com/pachterlab/colosseum}{Colosseum} \cite{colosseum}.
+Worked with \textbf{\href{https://sinabooeshaghi.com/}{Sina Booeshaghi}} and \textbf{\href{https://pachterlab.github.io/biography.html}{Prof Lior Pachter}} on developing software tools to analyze scRNA-seq data. Most notably \href{https://github.com/pachterlab/kb_python}{kb-python} \cite{kb}.
 \sectionsep
 
 \runsubsection{Software Engineering Intern}
