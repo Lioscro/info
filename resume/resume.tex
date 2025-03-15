@@ -134,31 +134,34 @@ Pasadena, CA | \faEnvelope\phantom{ } \href{mailto:phoenixter96@gmail.com}{phoen
 \section{Skills}
 \subsection{Programming}
 \textbullet{\textbf{Python}}\\
-\textbullet{\textbf{Javascript}}\\
+\textbullet{\textbf{Javascript}, Typescript}\\
 \textbullet{Ruby on Rails}\\
+\textbullet{SQL}\\
 \textbullet{C\# (.NET Framework)}\\
 \textbullet{C, C++}
 \sectionsep
 
 \subsection{Software}
+\textbullet{\textbf{Git, CI/CD}}\\
 \textbullet{\textbf{Docker}}\\
 \textbullet{\textbf{Django}}\\
 \textbullet{\textbf{Apache Airflow}}\\
 \textbullet{\textbf{AWS (S3, Batch, RDS, Lambda)}}\\
+\textbullet{\textbf{Nextflow}}\\
 \textbullet{\textbf{React.js}}\\
-\textbullet{GraphQL}\\
+\textbullet{Snowflake}\\
 \textbullet{Kubernetes}\\
 \textbullet{Kafka}\\
-\textbullet{Snowflake}\\
 % \textbullet{Elasticsearch, Grafana}\\
 % \textbullet{CI/CD}\\
 % \textbullet{Celery, RabbitMQ}\\
 % \textbullet{Numpy, Pandas}
 \sectionsep
 
-\subsection{Data Analysis}
-\textbullet{\textbf{scRNA-seq}}\\
-\textbullet{Spatial transcriptomics}
+\subsection{Other}
+\textbullet{Software design and architecture}\\
+\textbullet{Technical communication}\\
+\textbullet{Computational biology (NGS)}
 \sectionsep
 
 % \subsection{Molecular Biology}
@@ -182,13 +185,13 @@ Pasadena, CA | \faEnvelope\phantom{ } \href{mailto:phoenixter96@gmail.com}{phoen
 \renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
 \begin{thebibliography}{9}
 \bibitem{spateo}
-Spateo: multidimensional spatiotemporal modeling of single-cell spatial transcriptomics. bioRxiv, 2022
+Spateo: multidimensional spatiotemporal modeling of single-cell spatial transcriptomics. in press, 2024
 \bibitem{dynast}
 Dynast: Inclusive and efficient quantification of metabolically labeled transcripts in single cells. MIT, 2022
 % \bibitem{kp}
 % Lineage tracing reveals the phylodynamics, plasticity, and paths of tumor evolution. Cell, 2022.
-\bibitem{dynamo}
-Mapping transcriptomic vector fields of single cells. Cell, 2022.
+% \bibitem{dynamo}
+% Mapping transcriptomic vector fields of single cells. Cell, 2022.
 % \bibitem{colosseum}
 % Low-cost, scalable, and automated fluid sampling for fluidics applications. HardwareX, 2021.
 \bibitem{kb}
@@ -207,38 +210,115 @@ Modular and efficient pre-processing of single-cell RNA-seq. Nature Biotechnolog
 \begin{minipage}[t]{0.69\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{Software Engineer}
+\descript{| Ginkgo Bioworks}
+\location{Aug 2022 – Present | Current title: Senior Software Engineer | Boston, MA}
+% Individual contributor on the software team identifying gaps in core software, proposing and designing technical solutions, driving cross-team initiatives in an Agile environment, and unblocking high-impact projects.
+% Technical lead in one customer project-specific team and mentored junior engineers.
+Designed and implemented scalable software solutions for biosecurity and synthetic biology applications in fast-paced Agile environments.
+Led cross-functional initiatives to identify core software gaps and unblock high-impact projects.
+Technical lead for a customer-specific project team, mentoring junior engineers.
+\sectionsep
+
+\runsubsection{Research Assistant}
+\descript{| MIT}
+\location{Dec 2020 – Jun 2022 | Cambridge, MA}
+Studied cancer evolution via synthetic lineage reconstruction using a CRISPR-enabled lineage tracer at the Weissman lab. Developed tools to preprocess metabolic labeling scRNA-seq data \cite{dynast} and high-resolution spatial transcriptomics \cite{spateo}.
+\sectionsep
+
+\runsubsection{Software Soln. Engineer Intern}
+\descript{| Ginkgo Bioworks}
+\location{Jun 2020 – Aug 2020 | Boston, MA}
+Migrated in-house mass spectrometry data pipeline to AWS and Apache Airflow.
+% Took responsibility of the full development cycle of the project---from conceptualization, making architectural and design decisions to implementation, validation, and release.
+Designed and implemented the full development cycle for scalable and reliable pipelines, contributing to a long-term infrastructure upgrade.
+\sectionsep
+
+% \runsubsection{Undergraduate Researcher}
+% \descript{| Pachter Lab}
+% \location{Oct 2019 – Jun 2020 | Pasadena, CA}
+% Developed software tools to analyze scRNA-seq data. Most notably \href{https://github.com/pachterlab/kb_python}{kb-python} \cite{kb}.
+% \sectionsep
+
+\runsubsection{Software Engineering Intern}
+\descript{| Ginkgo Bioworks}
+\location{Jun 2019 – Sept 2019 | Boston, MA}
+Enhanced data analysis pipelines and backend services to improve stability and performance.
+Collaborated with Agile teams to deliver tested, scalable software solutions.
+% Improved company's in-house data analysis pipeline and various backend services. Worked collaboratively with other software engineers in an Agile environment to deliver stable, scalable and tested products.
+\sectionsep
+
+% \runsubsection{Sternberg Lab}
+% \descript{| Undergraduate Researcher}
+% \location{Jan 2017 – Jun 2019 | Pasadena, CA}
+% Worked with \textbf{\href{https://dangeles.github.io/}{David Angeles PhD.}} and \textbf{\href{http://wormlab.caltech.edu/LabMembers/Paul}{Prof Paul W. Sternberg}} on bioinformatics and molecular biology projects involving the model organism \textit{C. elegans}, most notably Alaska (above).
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PROJECTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Projects}
 
-\runsubsection{\href{https://github.com/aristoteleo/spateo-release}{Spateo \faGithub}}
-\descript{| Research Assistant, MIT \cite{spateo}}
-\location{Dec 2021 - Jun 2022 | Cambridge, MA}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}
-\item {Python package for analysis of high-resolution spatial transcriptomics.}
-\item {Developed novel RNA-based cell segmentation approaches.}
-\end{tightemize}
-\sectionsep
-
-\runsubsection{\href{https://github.com/aristoteleo/dynast-release}{Dynast \faGithub}}
-\descript{| Research Assistant, MIT \cite{dynast}}
-\location{Dec 2020 - Jun 2022 | Cambridge, MA}
-\begin{tightemize}
-\item {An inclusive and efficient preprocessing pipeline for quantifying metabolic labeling-enabled scRNA-seq.}
-\item {Simultaneous quantification of metabolically labeled and spliced transcripts.}
-\end{tightemize}
-\sectionsep
-
-% \runsubsection{Mass Spectrometry Pipeline}
-% \descript{| Software Soln. Engineer Intern, Ginkgo Bioworks}
-% \location{Jun 2020 – Aug 2020 | Boston, MA}
+% \runsubsection{Labyrinth}
+% \descript{| Software Engineer, Ginkgo Bioworks}
+% \location{Jan 2024 - Present | Boston, MA}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
 % \begin{tightemize}
-% \item {Migrated mass spectrometry pipeline to Linux on AWS and Airflow.}
-% \item {Retired an internal fork of ProteoWizard by merging back to upstream.}
+% \item {Internal scientist-centric Python package for easy discovery and retrieval of data specific to a customer project.}
+% \item {Developed by independently identifying gaps in core software, proposing and designing a solution, and driving implementation.}
 % \end{tightemize}
 % \sectionsep
+
+\runsubsection{On-demand Analysis Pipeline}
+\descript{| SWE, Ginkgo Bioworks}
+\location{Jan 2023 - Dec 2023 | Boston, MA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item {Refactored an in-house automated analysis pipeline for improved scalability and reliability using Apache Airflow.}
+\item {Tech lead for the implementation of a new analysis registry and mentored an intern through its successful delivery.}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Biosecurity NGS pipeline}
+\descript{| SWE, Ginkgo Bioworks}
+\location{Sept 2022 - Jan 2023 | Boston, MA}
+\begin{tightemize}
+\item {Led productionization of an in-house biosecurity NGS pipeline, significantly enhancing throughput and runtime.}
+\item {Orchestration using Apache Airflow and job execution on AWS.}
+\end{tightemize}
+\sectionsep
+
+% \runsubsection{\href{https://github.com/aristoteleo/spateo-release}{Spateo \faGithub}}
+% \descript{| Research Assistant, MIT \cite{spateo}}
+% \location{Dec 2021 - Jun 2022 | Cambridge, MA}
+% \begin{tightemize}
+% \item {Python package for analysis of high-resolution spatial transcriptomics.}
+% \item {Developed novel RNA-based cell segmentation approaches.}
+% \end{tightemize}
+% \sectionsep
+
+% \runsubsection{\href{https://github.com/aristoteleo/dynast-release}{Dynast \faGithub}}
+% \descript{| Research Assistant, MIT \cite{dynast}}
+% \location{Dec 2020 - Jun 2022 | Cambridge, MA}
+% \begin{tightemize}
+% \item {An inclusive and efficient preprocessing pipeline for quantifying metabolic labeling-enabled scRNA-seq.}
+% \item {Simultaneous quantification of metabolically labeled and spliced transcripts.}
+% \end{tightemize}
+% \sectionsep
+
+\runsubsection{Mass Spectrometry Pipeline}
+\descript{| Software Soln. Engineer Intern, Ginkgo Bioworks}
+\location{Jun 2020 – Aug 2020 | Boston, MA}
+\begin{tightemize}
+\item {Migrated the in-house mass spectrometry pipeline to Linux and AWS, leveraging Apache Airflow for workflow orchestration.}
+\item {Retired an internal fork of ProteoWizard by contributing back to upstream.}
+\end{tightemize}
+\sectionsep
 
 % \runsubsection{Colosseum}
 % \descript{| Undergraduate Researcher, Pachter Lab }
@@ -249,14 +329,14 @@ Modular and efficient pre-processing of single-cell RNA-seq. Nature Biotechnolog
 % \end{tightemize}
 % \sectionsep
 
-\runsubsection{\href{https://github.com/pachterlab/kb_python}{kb-python \faGithub}}
-\descript{| Undergraduate Researcher, Pachter Lab \cite{kb}}
-\location{Oct 2019 – Jun 2020 | Pasadena, CA}
-\begin{tightemize}
-\item A Python wrapper around popular pipeline for scRNA-seq pre-processing.
-\item Pre-processes scRNA-seq data into gene count and RNA velocity matrices.
-\end{tightemize}
-\sectionsep
+% \runsubsection{\href{https://github.com/pachterlab/kb_python}{kb-python \faGithub}}
+% \descript{| Undergraduate Researcher, Pachter Lab \cite{kb}}
+% \location{Oct 2019 – Jun 2020 | Pasadena, CA}
+% \begin{tightemize}
+% \item A Python wrapper around popular pipeline for scRNA-seq pre-processing.
+% \item Pre-processes scRNA-seq data into gene count and RNA velocity matrices.
+% \end{tightemize}
+% \sectionsep
 
 \runsubsection{NGS Pipeline}
 \descript{| Software Engineer Intern, Ginkgo Bioworks }
@@ -276,46 +356,6 @@ Modular and efficient pre-processing of single-cell RNA-seq. Nature Biotechnolog
 % \item Presented a poster at the 21st International \textit{C. elegans} Conference.
 % \item Available at \textcolor{blue}{ \href{http://alaska.caltech.edu/}{http://alaska.caltech.edu/}} and source code on Github.
 % \end{tightemize}
-% \sectionsep
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Experience}
-\runsubsection{Software Engineer}
-\descript{| Ginkgo Bioworks}
-\location{Aug 2022 – Present | Current title: Senior Software Engineer | Boston, MA}
-Worked as an individual contributor on the Solution Engineering team identifying gaps in core software, proposing and designing technical solutions, driving cross-team initiatives in an Agile environment, and unblocking high-impact projects.
-\sectionsep
-
-\runsubsection{Research Assistant}
-\descript{| MIT}
-\location{Dec 2020 – Jun 2022 | Cambridge, MA}
-Studied cancer evolution via synthetic lineage reconstruction using a CRISPR-enabled lineage tracer at the Weissman lab. Developed a tool to preprocess metabolic labeling scRNA-seq data \cite{dynast} and high-resolution spatial transcriptomics \cite{spateo}.
-\sectionsep
-
-\runsubsection{Software Soln. Engineer Intern}
-\descript{| Ginkgo Bioworks}
-\location{Jun 2020 – Aug 2020 | Boston, MA}
-Migrated company's mass spectrometry data pipeline to AWS and airflow. Took responsibility of the full development cycle of the project---from conceptualization, making architectural and design decisions to implementation, validation, and release.
-\sectionsep
-
-\runsubsection{Undergraduate Researcher}
-\descript{| Pachter Lab}
-\location{Oct 2019 – Jun 2020 | Pasadena, CA}
-Worked with \textbf{\href{https://sinabooeshaghi.com/}{Sina Booeshaghi}} and \textbf{\href{https://pachterlab.github.io/biography.html}{Prof Lior Pachter}} on developing software tools to analyze scRNA-seq data. Most notably \href{https://github.com/pachterlab/kb_python}{kb-python} \cite{kb}.
-\sectionsep
-
-\runsubsection{Software Engineering Intern}
-\descript{| Ginkgo Bioworks}
-\location{Jun 2019 – Sept 2019 | Boston, MA}
-Improved company's in-house data analysis pipeline and various backend services (see NGS PIPELINE). Worked collaboratively with other software engineers in an Agile environment to deliver stable, scalable and tested products.
-\sectionsep
-
-% \runsubsection{Sternberg Lab}
-% \descript{| Undergraduate Researcher}
-% \location{Jan 2017 – Jun 2019 | Pasadena, CA}
-% Worked with \textbf{\href{https://dangeles.github.io/}{David Angeles PhD.}} and \textbf{\href{http://wormlab.caltech.edu/LabMembers/Paul}{Prof Paul W. Sternberg}} on bioinformatics and molecular biology projects involving the model organism \textit{C. elegans}, most notably Alaska (above).
 % \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

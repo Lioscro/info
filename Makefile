@@ -11,9 +11,14 @@ default:
 	make resume
 	make cv
 
+init:
+	tlmgr init-usertree
+	paperconfig --paper letter
+	tlmgr option repository https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2021/tlnet-final
+
 install:
 	# IMPORTANT: only for MacOS and lualatex
-	tlmgr option repository ctan
+	# tlmgr option repository ctan
 	tlmgr update --self
 	tlmgr install textpos
 	tlmgr install isodate
